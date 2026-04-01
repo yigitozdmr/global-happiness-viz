@@ -1,0 +1,66 @@
+# 🌍 Global Happiness Analysis: A Dual Approach
+
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+![Tableau](https://img.shields.io/badge/Tableau-Public-orange)
+![Data Visualization](https://img.shields.io/badge/Topic-Data%20Visualization-brightgreen)
+
+## 📌 Project Overview
+This repository contains a comprehensive data visualization project analyzing the **World Happiness Report (2011–2025)**. The objective is to uncover the key drivers of human well-being across 140+ countries. 
+
+To demonstrate technical versatility and data storytelling, this project was built using a **dual-approach methodology**:
+1. **Programmatic Approach:** Custom scripts using Python (Pandas, Matplotlib, Seaborn, Plotly) for deep data manipulation and high-resolution charting.
+2. **Business Intelligence (BI) Approach:** An interactive, user-centric dashboard built with Tableau to allow seamless data exploration.
+
+---
+
+## 🚀 Live Dashboard
+Explore the interactive Tableau dashboard here: 
+👉 **[View Global Happiness Dashboard on Tableau Public](https://public.tableau.com/app/profile/berzan.uluda./viz/shared/6YT89FFDJ)**
+
+---
+
+## 📊 Key Findings (The "So What?")
+* **Wealth is a Foundation:** There is a strong, positive correlation between a nation's economic power (Log GDP per capita) and its citizens' perceived happiness.
+* **Society is the Catalyst:** Money isn't the sole metric. Historical trends reveal that even economically stable nations experience sharp declines in happiness during periods of social unrest, political instability, or loss of personal freedom. 
+
+---
+
+## 📂 Repository Structure
+
+```text
+├── Documentation.pdf                 # Detailed project methodology and data story
+├── WHR26_Data_Figure_2.1.xlsx        # The raw dataset (World Happiness Report)
+├── part_a_visuals.py                 # Python script for data cleaning and static visualization
+├── interactive_visual.py             # Python script for Plotly interactive line charts
+├── gdp_vs_happiness_scatter.png      # High-res static output (Scatter Plot)
+├── interactive_happiness_trend.html  # Interactive HTML output (Line Chart)
+├── Global_Happiness_Analysis.twbx    # Tableau Packaged Workbook
+└── README.md                         # Project documentation
+
+🛠️ Tech Stack & Tools
+Language: Python
+
+Data Manipulation: pandas
+
+Static Visualization: matplotlib, seaborn
+
+Interactive Visualization: plotly
+
+BI Platform: Tableau Public
+
+💻 How to Run the Code Locally
+Clone the repository:
+git clone https://github.com/yigitozdmr/global-happiness-viz.git)
+cd global-happiness-viz
+
+Create a virtual environment and activate it:
+python -m venv venv
+source venv/bin/activate  # On Windows use: venv\Scripts\activate
+
+Install the required libraries:
+pip install pandas matplotlib seaborn plotly openpyxl
+
+Run the visualization scripts:
+python part_a_visuals.py
+python interactive_visual.py
+Developed as a Data Visualization Midterm Project by Yiğit Özdemir.
